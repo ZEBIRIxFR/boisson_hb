@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>hamoud boualem</title>
 
@@ -16,23 +17,23 @@
                  <img src="photos/logo_hm_blanc.png" alt="">
             </div>
             <ul>
-                <li><a href="#">Accuel</a></li>
-                <li><a href="#">Nos Marques</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">plus info</a></li>
+                <li><a href="#"><i class="fa-solid fa-house"></i>Accuel</a></li>
+                <li><a href="#"><i class="fa-solid fa-tag"></i>Marques</a></li>
+                <li><a href="#"><i class="fa-solid fa-paper-plane"></i>Contact</a></li>
             </ul>
         </header>
         <div class="produit">
             <div class="info">
-                <h2>hamoud cola</h2>
-                <p>
+                <h2 id="titre">hamoud cola</h2>
+                <p id="description">
           Découvrez notre boisson Hamoud cola, une explosion de saveurs captivantes dans chaque gorgée.
            Avec son mélange équilibré de douceur caramélisée et de notes épicées, 
            cette boisson désaltérante est un incontournable pour tous les amateurs de sodas.
             Rafraîchissante et revigorante,
            elle vous offre un plaisir pétillant à chaque instant.
                 </p>
-                <h3>desponible en</h3>
+                <button>voir plus</button>
+                <!-- <h3>desponible en</h3>
                 <div class="volume">
                     <div class="volume-item">
                         <img src="photos/Colz-25cl.png" alt="">
@@ -54,20 +55,20 @@
                         <img  src="photos/H-COLA-2025-1L-min.png" alt=""Style="height: 90px;">
                         <p>2L</p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="photo">
-                <img src="photos/cola-can-33cl (1).png" alt="">
+                <img id="photo_principale" src="photos/cola-can-33cl (1).png" alt="">
             </div>
         </div>
-        <div class="touts_produits">
-            <img src="photos/Canette-Hamoud-La-blanche.-24cl-min.png" alt="">
-            <img src="photos/cola-can-33cl (1).png" alt="">
-            <img src="photos/selecto-canette-33cl.png" alt="">
-            <img src="photos/slim-orange-can-33cl.png" alt="">
+        <div class="tous_produits">
+            <img onclick="sel_prod(this.src , this.alt)" src="photos/Canette-Hamoud-La-blanche.-24cl-min.png" alt="la_blanche">
+            <img onclick="sel_prod(this.src , this.alt)" src="photos/cola-can-33cl (1).png" alt="cola">
+            <img onclick="sel_prod(this.src , this.alt)" src="photos/selecto-canette-33cl.png" alt="selecto">
+            <img onclick="sel_prod(this.src , this.alt)" src="photos/slim-orange-can-33cl.png" alt="slim">
         </div>
   </div>
        
-    
+  <script src="fonctions.js"></script>  
 </body>
 </html>

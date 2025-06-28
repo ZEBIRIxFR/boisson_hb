@@ -5,18 +5,21 @@
 body{
     height: 100vh;
     width: 100%;
-    background: red;
-
+    background:#7C222D;
+    display: flex;
 }
 .container{
     width: 100%;
-    height: max-content;
+    height: auto;
     background:#7C222D;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 25px;
+}
+.selecto{
+ background:#fff;
 }
 header{
     display: flex;
@@ -49,6 +52,10 @@ ul li a{
     color: #fff;
     font-size: 18px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 .produit{
     display: flex;
@@ -74,31 +81,34 @@ ul li a{
     margin-bottom: 20px;
 }
 .info button{
-    width:  100px;
+    width:  120px;
     padding: 8px 20px;
-    border: 2px solid #fff;
-    background-color: #fff;
-    color: #000;
+    border: 2px solid rgba(255, 255,255, 0.5);
+    background-color:rgba(255, 255,255, 0.5);
+    color: #fff;
     font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     border-radius: 25px;
 }
-.touts_produits{
+.info button:hover{
+    background-color:transparent;
+}
+.tous_produits{
     width: 200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.touts_produits img{
+.tous_produits img{
     height: 60px;
     transition: transform 0.3s ease-in-out;
 }
-.touts_produits img:hover{
+.tous_produits img:hover{
     transform: scale(1.2);
 }
-.volume{
+/* .volume{
    display: flex;
     align-items: end;
     justify-content: space-between;
@@ -119,4 +129,4 @@ ul li a{
 }
 .LZ{
     height: 90px;
-}
+} */
