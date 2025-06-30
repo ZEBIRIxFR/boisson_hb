@@ -14,7 +14,7 @@ function sel_prod(path ,nom_prod){
     }else if(nom_prod == "cola"){
         titre.innerHTML = "hamoud cola";
         description.innerHTML = " Découvrez notre boisson Hamoud cola, une explosion de saveurs captivantes dans chaque gorgée. Avec son mélange équilibré de douceur caramélisée et de notes épicées,cette boisson désaltérante est un incontournable pour tous les amateurs de sodas.Rafraîchissante et revigorante,elle vous offre un plaisir pétillant à chaque instant.";
-        container.style.background = "none";
+        container.style.background = "#7C222D";
     }else if(nom_prod == "slim"){
         titre.innerHTML = "slim orange";
         description.innerHTML = "Dans les années 1950, sous l'égide du slogan Slim, le citron qui prime, l'aventure commerciale de cette boisson au goût fruité prit son envol. Depuis, cette gamme n'a cessé de s'enrichir, s'adaptant aux palais toujours plus exigeants et diversifiés des Algériens.";
