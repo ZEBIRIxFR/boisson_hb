@@ -30,7 +30,7 @@ header{
 header ul{
     display: flex;
     list-style: none;
-    width: 50%;
+    width: 350px;
     justify-content: space-between;
     margin-right: 10px;
 }
